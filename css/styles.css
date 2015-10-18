@@ -5,6 +5,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: whitesmoke;
   }
 
   main {
@@ -21,11 +22,15 @@ html{
 header > .parallax-container {
       height: 100px;
     }
+h1{
+  font-family: 'Oswald';
+}
 #mobile-demo{
 	font-family: 'Raleway', sans-serif;
 }
 #news{
   background-color: #1e88e5;
+  position: absolute;
   color: whitesmoke;
 }
 #news > a, #news >h4,  p {
@@ -33,4 +38,16 @@ header > .parallax-container {
 }
 #news > p > a > small{
   color: white;
+}
+#req{
+  font-family: 'Raleway', sans-serif;
+}
+.flow-text{
+  font-family: 'Raleway', sans-serif;
+}
+.pull-right{
+  width: 160%;
+  position: absolute;
+  /*margin-right:5em;
+  padding-right:5em;*/
 }

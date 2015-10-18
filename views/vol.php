@@ -43,10 +43,16 @@
 			</div>
 		/section>
 	</div>
-	<footer class="page-footer blue darken-1">
+	<footer class="page-footer red darken-1">
 		<?php
 			require '../layout/foo.php';
 		?>
 	</footer>
+<?php//Enlaces para las librerías js?>
+<script src="../js/jquery.min.js"></script>
+<!--<script src="../js/bootstrap.min.js"></scrip>-->	
+<script src="../js/materialize.min.js"></script>
+<script src="../js/functions.js"></script>
+<?php//No olvidar modificar rutas con los namespaces de composer js?>
 </body>
 </html>
