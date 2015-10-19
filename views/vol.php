@@ -13,7 +13,7 @@
 	<title>Voluntariado UGB</title>
 </head>
 <body>
-<header>
+	<header>
 		<?php
 			require '../layout/hea.php';
 		?><br>
@@ -24,24 +24,26 @@
         </div>
 		<br>
 	</header>
- 	<?php
- 		require '../layout/slider.php';
- 	?>
-	<div class="row">
+ 	<div>
 		<?php
-		require '../layout/new.php';
-		?>
-		<section id="about" class="col s12 m9">
-			<div class="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facere corporis quos ad expedita a mollitia nostrum dolore architecto id odio omnis dolor fugiat vitae nihil, impedit, magnam sequi aperiam.</p>
+ 		require '../layout/slider.php';
+ 		?>
+	</div>
+	<br>
+	<div class="main">
+		<section class="row row pull-right">
+			<?php
+	 		require '../layout/new.php';
+	 		?> 
+		</section>
+		<section class="row container">
+			<div class="divider"></div><div class="section"><h1>Acerca de los voluntarios</h1></div><div class="divider"></div>
+			<div class="row">
+				<div class="col">
+					
+				</div>
 			</div>
 		</section>
-
-		<section id="requi" class="col s12 m9">
-			<div class="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium harum possimus repudiandae ipsa repellendus, consequuntur doloribus omnis dolor sint, totam! Blanditiis unde, quia iusto est labore dolorem, libero quas sit.</p>
-			</div>
-		/section>
 	</div>
 	<footer class="page-footer red darken-1">
 		<?php
