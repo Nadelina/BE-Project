@@ -7,14 +7,12 @@
         			<li><a href="aso.php"><h4>ASOCIACIONES</h4></a></li>
         			<li><a href="bec.php"><h4>BECAS</h4></a></li>
         			<li><a href="tut.php"><h4>TUTORÍAS</h4></a></li>
-        			<li><a href="vol.php"><h4>VOLUNTARIADO</h4></a></li>
       			</ul>
       			<ul class="side-nav" id="mobile-demo">
               <li><a href="../index.php">INICIO</a></li>
         			<li><a href="aso.php">ASOCIACIÓN ESTUDIANTIL</a></li>
         			<li><a href="bec.php">BECAS</a></li>
         			<li><a href="tut.php">TUTORÍAS</a></li>
-        			<li><a href="vol.php">VOLUNTARIADO</a></li>
       			</ul>
     		</div>
   		</nav>
