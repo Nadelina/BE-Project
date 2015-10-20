@@ -1,0 +1,7 @@
+{
+    "autoload":{
+        "ProjectoBE":{
+            "RACCOON\\BE\\": "app/src"
+        }
+    }
+}
