@@ -1,0 +1,58 @@
+/*Fuentes*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+  blockquote>h4{
+    font-family: 'Raleway', sans-serif;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    overflow-x: hidden;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+html{
+   font-family: 'Oswald', sans-serif;
+     /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ 
+  }
+header > .parallax-container {
+      height: 100px;
+    }
+h1{
+  font-family: 'Oswald';
+}
+#mobile-demo{
+	font-family: 'Raleway', sans-serif;
+}
+#news{
+  background-color: #1e88e5;
+  position: absolute;
+  color: whitesmoke;
+}
+#news > a, #news >h4,  p {
+  font-family: 'Raleway';
+}
+#news > p > a > small{
+  color: white;
+}
+#req>p{
+  font-family: 'Raleway', sans-serif;
+}
+.flow-text{
+  font-family: 'Raleway', sans-serif;
+}
+.pull-right{
+  width: 160%;
+  position: absolute;
+  
+  margin-right:5em;
+  /*padding-right:5em;*/
+}
